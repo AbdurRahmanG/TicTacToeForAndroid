@@ -36,6 +36,7 @@
             android:id="@+id/imageViewButton1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/button_image"
             tools:srcCompat="@tools:sample/avatars" />
     </RelativeLayout>
 
@@ -53,6 +54,7 @@
             android:id="@+id/imageViewButton2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/button_image"
             tools:srcCompat="@tools:sample/avatars" />
     </RelativeLayout>
 
@@ -72,6 +74,7 @@
             android:id="@+id/imageViewButton3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/button_image"
             tools:srcCompat="@tools:sample/avatars" />
     </RelativeLayout>
 
@@ -89,6 +92,7 @@
             android:id="@+id/imageViewButton4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/button_image"
             tools:srcCompat="@tools:sample/avatars" />
     </RelativeLayout>
 
@@ -108,6 +112,7 @@
             android:id="@+id/imageViewButton5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/button_image"
             tools:srcCompat="@tools:sample/avatars" />
     </RelativeLayout>
 
@@ -125,6 +130,7 @@
             android:id="@+id/imageViewButton6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/button_image"
             tools:srcCompat="@tools:sample/avatars" />
     </RelativeLayout>
 
@@ -143,6 +149,7 @@
             android:id="@+id/imageViewButton7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/button_image"
             tools:srcCompat="@tools:sample/avatars" />
     </RelativeLayout>
 
@@ -161,6 +168,7 @@
             android:id="@+id/imageViewButton8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/button_image"
             tools:srcCompat="@tools:sample/avatars" />
     </RelativeLayout>
 
@@ -179,6 +187,7 @@
             android:id="@+id/imageViewButton9"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/button_image"
             tools:srcCompat="@tools:sample/avatars" />
     </RelativeLayout>
 
@@ -238,7 +247,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:text="Reset"
+        android:text="@string/reset"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -262,7 +271,7 @@
             android:id="@+id/textViewScoreX"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Score X :- 0"
+            android:text="@string/score_x_0"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -271,7 +280,7 @@
             android:id="@+id/textViewScoreO"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Score O :- 0"
+            android:text="@string/score_o_0"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
