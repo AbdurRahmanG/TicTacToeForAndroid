@@ -5,4 +5,12 @@
     <string name="score_o_0">Score O :- 0</string>
     <string name="score_x_0">Score X :- 0</string>
     <string name="button_image">Button Image</string>
+<!--    Real Ad ID-->
+    <string name="admob_app_id">ca-app-pub-7947797926088216~5519276569</string>
+    <string name="admob_ad_unit_id">ca-app-pub-7947797926088216/2061518913</string>
+
+    <!--    Test Ad ID-->
+<!--    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+<!--    <string name="admob_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    
 </resources>
